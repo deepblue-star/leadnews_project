@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/heima-leadnews-common/pom.xml" />
         <option value="$PROJECT_DIR$/heima-leadnews-feign-api/pom.xml" />
+        <option value="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/pom.xml" />
+        <option value="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/pom.xml" />
       </list>
     </option>
   </component>
