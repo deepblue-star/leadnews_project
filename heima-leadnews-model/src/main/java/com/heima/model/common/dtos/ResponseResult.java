@@ -136,21 +136,21 @@ public class ResponseResult<T> implements Serializable {
 
     public static void main(String[] args) {
         //前置
-        /*AppHttpCodeEnum success = AppHttpCodeEnum.SUCCESS;
-        System.out.println(success.getCode());
-        System.out.println(success.getErrorMessage());*/
+//        AppHttpCodeEnum success = AppHttpCodeEnum.SUCCESS;
+//        System.out.println(success.getCode());
+//        System.out.println(success.getErrorMessage());
 
         //查询一个对象
-        /*Map map = new HashMap();
-        map.put("name","zhangsan");
-        map.put("age",18);
-        ResponseResult result = ResponseResult.okResult(map);
-        System.out.println(JSON.toJSONString(result));*/
+//        Map map = new HashMap();
+//        map.put("name","zhangsan");
+//        map.put("age",18);
+//        ResponseResult result = ResponseResult.okResult(map);
+//        System.out.println(JSON.toJSONString(result));
 
 
         //新增，修改，删除  在项目中统一返回成功即可
-       /* ResponseResult result = ResponseResult.errorResult(AppHttpCodeEnum.SUCCESS);
-        System.out.println(JSON.toJSONString(result));*/
+//        ResponseResult result = ResponseResult.errorResult(AppHttpCodeEnum.SUCCESS);
+//        System.out.println(JSON.toJSONString(result));
 
 
         //根据不用的业务返回不同的提示信息  比如：当前操作需要登录、参数错误
